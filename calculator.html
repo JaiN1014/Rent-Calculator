@@ -2,37 +2,149 @@
 <html lang="en">
 <head>
     <title>Rent Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+
 </head>
 <body>
-  <header>
-    <H1> RENT</H1>
-    <h1> AMOUNT</h1>
-  </header>
 
-  <section>
-    <div class="heading">  ELECTRICITY</div>
-    <div class="heading1"> Previous</div>
-    <div class="heading1"> Present</div>
-    <div calss="input-field"> 
-      <input type="Date" placeholder="Date" >
-      </input>
-      <input type="Date" placeholder="Date" >
-      </input>
-      <input type="Date" placeholder="Date" >
-      </input>
-      <input type="Date" placeholder="Date" >
-      </input>
-      <input type="Date" placeholder="Date" >
-      </input>
-      <input type="Date" placeholder="Date" >
-      </input>
-      <input type="Date" placeholder="Date" >
-      </input>
-      <input type="Date" placeholder="Date" >
-      </input>
+  <!-- header  -->
+ 
+    <header class="header">
+
+      <div class="container">
+        <div > Rent</div> 
+        <input type="text" placeholder="Amount" maxlength="5"> 
+      </div> 
+      
+    </header>
+
+  <!-- Electricity Section  -->
+
+    <Section class="section-title">
+       
+        <div class="section-child"> Electricity </div>
+            
+
+      <section class="container-heading">     
+        <div > PREVIOUS</div>
+        <div > PRESENT</div>
+      </section>
 
 
-    </div>
-  </section>
+      <section class="container-electricity">
+        
+        <div class="left"> 
+          
+          <div> Date</div>
+          <div> Readings</div>
+          <div> No. of Units</div>
+          <div> Charge</div>
+
+
+        </div>
+
+        <div class="right">
+          
+          <input type="text" placeholder="Date">
+          <input type="text" placeholder="Readings">
+          <input type="text" placeholder="Units">
+          <input type="text" placeholder="  " value="/Unit" id="value" maxlength="2" > 
+                        
+        </div>
+      </section>
+
+      <section class="result">
+        
+        <div class="result-child">
+            <div> Amount</div>
+            <input type="text" placeholder="Amount">
+        </div>
+
+      </section>
+
+    </Section>
+
+    <!-- Water Section  -->
+
+    <Section class="section-title">
+       
+      <div class="section-child"> Water </div>
+          
+
+    <section class="container-heading">     
+      <div > PREVIOUS</div>
+      <div > PRESENT</div>
+    </section>
+
+
+    <section class="container-electricity">
+      
+      <div class="left"> 
+        
+        <div> Date</div>
+        <div> Readings</div>
+        <div> No. of Units</div>
+        <div> Charge</div>
+
+
+      </div>
+
+      <div class="right">
+        
+        <input type="text" placeholder="Date">
+        <input type="text" placeholder="Readings">
+        <input type="text" placeholder="Units">
+        <input type="text" placeholder="  " value="/Unit" id="value" maxlength="2" > 
+                      
+      </div>
+    </section>
+
+    <section class="result">
+      
+      <div class="result-child">
+          <div> Amount</div>
+          <input type="text" placeholder="Amount">
+      </div>
+
+    </section>
+
+    <!-- Footer Section -->
+
+    <section class="container-electricity">
+      
+      <div class="left"> 
+        
+        <div> GRAND TOTAL</div>
+        <div> AMOUNT PAID</div>
+        <div> DATE</div>
+        <div> BALANCE</div>
+
+
+      </div>
+
+      <div class="right">
+        
+        <input type="text" placeholder="Total">
+        <input type="text" placeholder="Amount">
+        <input type="text" placeholder="Date">
+        <input type="text" placeholder="Balance"> 
+                      
+      </div>
+    </section>
+
+  </Section>
+
+    
+    
+
+
+    
+  
+
+  
+
+
+
+  
 </body>
 </html>

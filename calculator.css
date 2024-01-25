@@ -1,0 +1,184 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.header
+{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+
+}
+
+
+.container
+{
+
+    width: 78%;
+    margin-left: 11%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d4d4d4;
+    border-radius: 20px;   
+
+}
+
+
+.container div 
+{
+    
+    margin-right: 10px;
+    color: #8f8e8e;
+    font-size: 50px;  
+
+}
+
+
+.container input
+{
+
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    color: #8f8e8e;
+    background-color: #d4d4d4;
+    border-radius: 20px;
+    font-size: 50px;
+    border: none;
+    outline: none;  
+
+}
+
+
+::placeholder
+{
+    color: #8f8e8e;
+
+}
+
+
+.section-title
+{
+    
+    color: #8f8e8e;
+    font-size: 50px;
+    padding: 10px;
+    
+}
+
+
+.section-child
+{
+    
+    display: flex;
+    justify-content: center;  
+    color: #feb06a;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 20px;
+
+}
+
+
+.container-electricity
+{
+    
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin: 2px;
+    justify-content: space-around;
+    
+}
+
+
+.left
+{
+   
+    width: 30%;
+    color: #8f8e8e;
+    font-size: 50px;
+    background-color: #d4d4d4;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+
+.right 
+{
+    
+    width:30%;    
+    display: flex;
+    flex-direction: column;
+    background-color: #d4d4d4;
+    border-radius: 20px;  
+    padding: 0 10px;
+   
+}
+
+.right input
+{
+
+    background-color: #d4d4d4;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    color: #8f8e8e;
+    border-radius: 20px;
+
+}
+
+
+.container-heading
+{
+    
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+#value{
+    text-align: right;
+    
+}
+
+
+.result-child
+{
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: #feb06a;
+    border-radius: 20px;
+    width: 78%;
+    margin-left: 11%;
+    padding: 0 10px;
+
+}
+
+
+.result-child input
+{
+    background-color: #feb06a;
+    width: 37%;
+    color: #8f8e8e;
+    font-size: 50px;
+    text-align: left;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    
+    
+
+
+}
