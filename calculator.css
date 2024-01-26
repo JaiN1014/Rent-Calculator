@@ -179,6 +179,19 @@
     border-radius: 20px;
     
     
+}
 
+#section-water
+{
+    color: #36d6e7;
+}
 
+#water-result
+{
+    background-color: #36d6e7;
+}
+
+.final-amount
+{
+    margin-top: 50px;
 }
