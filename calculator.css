@@ -111,6 +111,17 @@
     
 }
 
+.left input
+{
+    background-color: #d4d4d4;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    color: #8f8e8e;
+    border-radius: 20px;
+    width: 100%;
+}
+
 
 .right 
 {
@@ -123,6 +134,7 @@
     padding: 0 10px;
    
 }
+
 
 .right input
 {
