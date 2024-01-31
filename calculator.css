@@ -11,8 +11,9 @@
 .header
 {
     width: 100%;
-    height: 80px;
+    height: 100px;
     padding: 10px;
+    margin-top: 100px;
 
 }
 
@@ -20,8 +21,8 @@
 .container
 {
 
-    width: 78%;
-    margin-left: 11%;
+    width: 85%;
+    margin-left: 7.5%;   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,9 +35,8 @@
 .container div 
 {
     
-    margin-right: 10px;
     color: #8f8e8e;
-    font-size: 50px;  
+    font-size: 60px;  
 
 }
 
@@ -44,13 +44,13 @@
 .container input
 {
 
-    width: 200px;
-    height: 50px;
+    width: 220px;
+    height: 60px;
     padding: 5px;
     color: #8f8e8e;
     background-color: #d4d4d4;
     border-radius: 20px;
-    font-size: 50px;
+    font-size: 60px;
     border: none;
     outline: none;  
 
@@ -68,8 +68,9 @@
 {
     
     color: #8f8e8e;
-    font-size: 50px;
     padding: 10px;
+    width: 85%;
+    margin-left: 7.5%;
     
 }
 
@@ -77,6 +78,7 @@
 .section-child
 {
     
+    font-size: 50px;
     display: flex;
     justify-content: center;  
     color: #feb06a;
@@ -88,14 +90,25 @@
 }
 
 
+.container-heading
+
+{
+    font-size: 40px;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+
 .container-electricity
 {
     
-    width: 100%;
+    width: 80%;
     display: flex;
-    padding: 10px;
-    margin: 2px;
+    padding: 5px;
+    margin-left: 10%;
     justify-content: space-around;
+
+    
     
 }
 
@@ -103,9 +116,9 @@
 .left
 {
    
-    width: 30%;
+    width: 45%;
     color: #8f8e8e;
-    font-size: 50px;
+    font-size: 30px;
     background-color: #d4d4d4;
     border-radius: 20px;
     padding: 10px;
@@ -114,8 +127,10 @@
 
 .left input
 {
+    
+    padding:0 10px;
     background-color: #d4d4d4;
-    font-size: 50px;
+    font-size: 30px;
     border: none;
     outline: none;
     color: #8f8e8e;
@@ -123,16 +138,22 @@
     width: 100%;
 }
 
+.left div
+{
+
+    padding:0 10px;
+}
+
 
 .right 
 {
     
-    width:30%;    
+    width:45%;    
     display: flex;
     flex-direction: column;
     background-color: #d4d4d4;
     border-radius: 20px;  
-    padding: 0 10px;
+    padding: 10px;
    
 }
 
@@ -140,8 +161,9 @@
 .right input
 {
 
+    padding: 0 10px;
     background-color: #d4d4d4;
-    font-size: 50px;
+    font-size: 30px;
     border: none;
     outline: none;
     color: #8f8e8e;
@@ -166,30 +188,42 @@
 }
 
 
+.result
+{
+
+    width: 75%;
+    margin-left: 12.5%;
+
+
+}
+
+
 .result-child
 {
    
+    font-size: 30px;
     display: flex;
     justify-content: space-between;
     background-color: #feb06a;
-    border-radius: 20px;
-    width: 78%;
-    margin-left: 11%;
-    padding: 0 10px;
+    border-radius: 15px;
+    padding: 0 20px;
 
+    
 }
 
 
 .result-child input
 {
+    padding: 0 20px;
+    margin-right: 17%;
     background-color: #feb06a;
-    width: 37%;
+    width: 30%;
     color: #8f8e8e;
-    font-size: 50px;
+    font-size: 30px;
     text-align: left;
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 15px;
     
     
 }
@@ -207,4 +241,5 @@
 .final-amount
 {
     margin-top: 50px;
+    font-size: 30px;
 }
