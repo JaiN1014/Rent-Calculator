@@ -250,3 +250,23 @@
 }
 
 
+
+
+@media screen and (min-width: 768px) {
+    /* Your styles for desktop view here */
+
+    .container
+{
+
+    width: 50%;
+    margin-left: 25%;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d4d4d4;
+    border-radius: 20px;   
+
+}
+  }
+
+
