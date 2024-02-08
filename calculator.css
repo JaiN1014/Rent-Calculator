@@ -22,7 +22,7 @@
 {
 
     width: 85%;
-    margin-left: 7.5%;   
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -70,7 +70,7 @@
     color: #8f8e8e;
     padding: 10px;
     width: 85%;
-    margin-left: 7.5%;
+    margin: auto;
     
 }
 
@@ -192,7 +192,7 @@
 {
 
     width: 75%;
-    margin-left: 12.5%;
+    margin: auto;
 
 
 }
@@ -252,7 +252,7 @@
 .container input[type="number"]::-webkit-inner-spin-button,
 .container input[type="number"]::-webkit-outer-spin-buttton
 {
-    -webkit-apperance: none;
+    -webkit-appearance: none;
     margin: 0;
 }
 
