@@ -22,7 +22,7 @@
 {
 
     width: 85%;
-    margin: auto;
+    margin-left: 7.5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
