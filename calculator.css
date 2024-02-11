@@ -70,7 +70,7 @@
     color: #8f8e8e;
     padding: 10px;
     width: 85%;
-    margin: auto;
+    margin-left: 7.5%;
     
 }
 
@@ -84,7 +84,7 @@
     color: #feb06a;
     text-align: center;
     width: 30%;
-    margin-left: auto;
+    margin-left: 35%;
     border-radius: 20px;
 
 }
@@ -95,7 +95,7 @@
 {
     font-size: 40px;
     width: 75%;
-    margin-left: auto;
+    margin-left: 12.5;
 }
 
 
@@ -105,7 +105,7 @@
     width: 80%;
     display: flex;
     padding: 5px;
-    margin-left: auto;
+    margin-left: 10%;
     justify-content: space-around;
 
     
@@ -192,7 +192,7 @@
 {
 
     width: 75%;
-    margin: auto;
+    margin-left: 12.5%; 
 
 
 }
