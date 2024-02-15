@@ -4,16 +4,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+   
 }
+
+@media(min-width: 834px) {
 
 
 .header
 {
     width: 100%;
-    height: 100px;
+    height: 50px;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 20px;
 
 }
 
@@ -36,7 +38,7 @@
 {
     
     color: #8f8e8e;
-    font-size: 60px;  
+    font-size: 30px;  
 
 }
 
@@ -44,13 +46,14 @@
 .container input
 {
 
-    width: 220px;
-    height: 60px;
+    width: 145px;
+    height: 30px;
     padding: 5px;
     color: #8f8e8e;
     background-color: #d4d4d4;
+    padding-left: 15px;    
     border-radius: 20px;
-    font-size: 60px;
+    font-size: 30px;
     border: none;
     outline: none;  
 
@@ -78,13 +81,13 @@
 .section-child
 {
     
-    font-size: 50px;
+    font-size: 25px;
     display: flex;
     justify-content: center;  
     color: #feb06a;
     text-align: center;
     width: 30%;
-    margin-left: 35%;
+    margin: auto ;
     border-radius: 20px;
 
 }
@@ -93,7 +96,7 @@
 .container-heading
 
 {
-    font-size: 40px;
+    font-size: 20px;
     width: 50%;
     margin: auto;
 }
@@ -117,7 +120,7 @@
    
     width: 45%;
     color: #8f8e8e;
-    font-size: 30px;
+    font-size: 15px;
     background-color: #d4d4d4;
     border-radius: 20px;
     padding: 10px;
@@ -131,7 +134,7 @@
     
     padding:0 10px;
     background-color: #d4d4d4;
-    font-size: 30px;
+    font-size: 15px;
     border: none;
     outline: none;
     color: #8f8e8e;
@@ -164,7 +167,7 @@
 
     padding: 0 10px;
     background-color: #d4d4d4;
-    font-size: 30px;
+    font-size: 15px;
     border: none;
     outline: none;
     color: #8f8e8e;
@@ -215,10 +218,8 @@
 
 .result-child input
 {
-    padding: 0 20px;
-    margin-right: 17%;
     background-color: #feb06a;
-    width: 30%;
+    width: 45%;
     color: #8f8e8e;
     font-size: 30px;
     text-align: left;
@@ -241,8 +242,8 @@
 
 .final-amount
 {
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 25px;
+    font-size: 15px;
 }
 
 .left-amount
@@ -262,50 +263,264 @@
     -moz-appearance: textfield;
 }
 
+}
 
-@media screen (min-width: 768px) {
-    /* Your styles for desktop view here */
 
-    .container
+@media(max-width: 833px) {
+    .header
 {
-
     width: 100%;
-    margin-left: 0;   
-    padding: 0 10px;  
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
 
 }
 
-.section-child
+
+.container
 {
-    width:50%;
-    margin-left: 0;
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d4d4d4;
+    border-radius: 20px;   
+
+}
+
+
+.container div 
+{
+    
+    color: #8f8e8e;
+    font-size: 30px;  
+
+}
+
+
+.container input
+{
+
+    width: 145px;
+    height: 30px;
+    padding: 5px;
+    color: #8f8e8e;
+    background-color: #d4d4d4;
+    padding-left: 15px;    
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    outline: none;  
+
+}
+
+
+::placeholder
+{
+    color: #8f8e8e;
+
 }
 
 
 .section-title
 {
     
-    width: 100%;
-    margin-left: 0;
+    color: #8f8e8e;
+    padding: 10px;
+    width: 85%;
+    margin: auto;
     
 }
 
-.container-electricity, 
-.left,
-.right
+
+.section-child
 {
-    width: 80%;
-    margin-left: 0;
-    font-size: 40px;
+    
+    font-size: 25px;
+    display: flex;
+    justify-content: center;  
+    color: #feb06a;
+    text-align: center;
+    width: 30%;
+    margin: auto ;
+    border-radius: 20px;
 
 }
 
-.result
-{   
+
+.container-heading
+
+{
+    font-size: 20px;
+    width: 75%;
+    margin: auto;
+}
+
+.container-electricity
+{
+    
+    width: 75%;
+    display: flex;
+    padding: 0px, 5px, 5px, 5px;
+    margin: auto;
+    justify-content: space-around;
+
+    
+    
+}
+
+
+.left
+{
+   
+    width: 45%;
+    color: #8f8e8e;
+    font-size: 15px;
+    background-color: #d4d4d4;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+    
+}
+
+.left input
+{
+    
+    padding:0 10px;
+    background-color: #d4d4d4;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #8f8e8e;
+    border-radius: 20px;
     width: 100%;
 }
 
+.left div
+{
 
-  }
+    padding:0 10px;
+}
 
 
+.right 
+{
+    
+    width:45%;    
+    display: flex;
+    flex-direction: column;
+    background-color: #d4d4d4;
+    border-radius: 20px;  
+    padding: 10px;
+    
+}
+
+
+.right input
+{
+
+    padding: 0 10px;
+    background-color: #d4d4d4;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #8f8e8e;
+    border-radius: 20px;
+
+}
+
+
+.container-heading
+{
+    
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+#value{
+    text-align: right;
+    
+}
+
+
+.result
+{
+
+    width: 72%;
+    margin: auto; 
+
+
+}
+
+
+.result-child
+{
+   
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #feb06a;
+    border-radius: 15px;
+    padding: 0 20px;
+
+    
+}
+
+
+.result-child input
+{
+    background-color: #feb06a;
+    width: 45%;
+    color: #8f8e8e;
+    font-size: 30px;
+    text-align: left;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    
+    
+}
+
+#section-water
+{
+    color: #36d6e7;
+}
+
+#water-result
+{
+    background-color: #36d6e7;
+}
+
+.final-amount
+{
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.left-amount
+{
+    margin-top: 10px;;
+}
+
+.container input[type="number"]::-webkit-inner-spin-button,
+.container input[type="number"]::-webkit-outer-spin-buttton
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container input[type="number"]
+{
+    -moz-appearance: textfield;
+}
+        
+    
+
+
+}  
