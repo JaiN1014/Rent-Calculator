@@ -266,6 +266,18 @@
 }
 
 
+.button
+{
+    width:100px;
+    height: 30px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#8f8e8e; 
+}
+
+
 @media(max-width: 833px) {
     .header
 {
@@ -286,7 +298,8 @@
     justify-content: space-around;
     align-items: center;
     background-color: #d4d4d4;
-    border-radius: 20px;   
+    border-radius: 20px;  
+    
 
 }
 
@@ -295,7 +308,7 @@
 {
     
     color: #8f8e8e;
-    font-size: 30px;  
+    font-size: 40px;  
 
 }
 
@@ -304,14 +317,14 @@
 {
 
     width: 125px;
-    height: 30px;
+    height: 40px;
     padding: 5px;
     color: #8f8e8e;
     background-color: #d4d4d4;
     background-color: green;
     padding-left: 9px;    
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 40px;
     border: none;
     outline: none;  
 
@@ -339,7 +352,7 @@
 .section-child
 {
     
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     justify-content: center;  
     color: #feb06a;
@@ -354,7 +367,7 @@
 .container-heading
 
 {
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
     margin: auto;
 }
@@ -376,9 +389,9 @@
 .left
 {
    
-    width: 45%;
+    width: 55%;
     color: #8f8e8e;
-    font-size: 15px;
+    font-size: 20px;
     background-color: #d4d4d4;
     border-radius: 20px;
     padding: 10px;
@@ -392,7 +405,7 @@
     
     padding:0 10px;
     background-color: #d4d4d4;
-    font-size: 15px;
+    font-size: 20px;
     border: none;
     outline: none;
     color: #8f8e8e;
@@ -410,7 +423,7 @@
 .right 
 {
     
-    width:45%;    
+    width:55%;    
     display: flex;
     flex-direction: column;
     background-color: #d4d4d4;
@@ -425,7 +438,7 @@
 
     padding: 0 10px;
     background-color: #d4d4d4;
-    font-size: 15px;
+    font-size: 20px;
     border: none;
     outline: none;
     color: #8f8e8e;
@@ -453,7 +466,7 @@
 .result
 {
 
-    width: 95%;
+    width: 100%;
     margin: auto; 
 
 
