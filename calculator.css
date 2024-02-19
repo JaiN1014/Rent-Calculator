@@ -268,13 +268,27 @@
 
 .button
 {
-    width:100px;
-    height: 30px;    
+    width:10%;
+    height: 40px;    
     display: flex;
+    margin: auto;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color:#8f8e8e; 
+    background-color:#d4d4d4; 
+    border-radius: 10px;
+    
+
+
+}
+
+.button1
+{
+    color: #8f8e8e;
+    background-color: #d4d4d4;
+    font-size: 20px;
+    border: none;
+    
 }
 
 
