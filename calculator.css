@@ -266,17 +266,15 @@
 }
 
 
-.button
+.submit
 {
-    width:10%;
+    width:30%;
     height: 40px;    
     display: flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color:#d4d4d4; 
+    margin-left: 30%;
     border-radius: 10px;
     
     
@@ -290,8 +288,21 @@
     background-color: #d4d4d4;
     font-size: 20px;
     border: none;
+    border-radius: 10px;
     
 }
+
+.button2
+{
+    color: #8f8e8e;
+    background-color: #d4d4d4;
+    font-size: 20px;
+    border: none;
+    margin-left: 100px;
+    border-radius: 10px;
+    
+}
+    
 
 
 @media(max-width: 833px) {
@@ -550,17 +561,15 @@
     -moz-appearance: textfield;
 }
         
-.button
+.submit
 {
     width:30%;
-    /* height: 40px;     */
+    height: 40px;    
     display: flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    /* background-color:#d4d4d4;  */
+    margin-left: 30%;
     border-radius: 10px;
     
     
@@ -574,15 +583,18 @@
     background-color: #d4d4d4;
     font-size: 20px;
     border: none;
+    border-radius: 10px;
     
 }
 
 .button2
 {
-    color: green;
-    background-color: red;
+    color: #8f8e8e;
+    background-color: #d4d4d4;
     font-size: 20px;
     border: none;
+    margin-left: 100px;
+    border-radius: 10px;
     
 }
     
