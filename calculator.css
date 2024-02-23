@@ -268,13 +268,13 @@
 
 .submit
 {
-    width:30%;
+    width:35%;
     height: 40px;    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-left: 30%;
+    margin: auto;
     border-radius: 10px;
     
     
@@ -285,6 +285,7 @@
 .button1
 {
     color: #8f8e8e;
+    width: 30%;
     background-color: #d4d4d4;
     font-size: 20px;
     border: none;
@@ -295,10 +296,10 @@
 .button2
 {
     color: #8f8e8e;
+    width: 40%;
     background-color: #d4d4d4;
     font-size: 20px;
     border: none;
-    margin-left: 100px;
     border-radius: 10px;
     
 }
@@ -343,12 +344,12 @@
 .container input
 {
 
-    width: 125px;
+    width: 165px;
     height: 40px;
     padding: 5px;
+    margin-right: -7%;
     color: #8f8e8e;
     background-color: #d4d4d4;
-    background-color: green;
     padding-left: 9px;    
     border-radius: 20px;
     font-size: 40px;
@@ -563,13 +564,13 @@
         
 .submit
 {
-    width:30%;
+    width:70%;
     height: 40px;    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 15%;
     border-radius: 10px;
     
     
@@ -580,6 +581,7 @@
 .button1
 {
     color: #8f8e8e;
+    width: 40%;
     background-color: #d4d4d4;
     font-size: 20px;
     border: none;
@@ -590,10 +592,10 @@
 .button2
 {
     color: #8f8e8e;
+    width: 40%;
     background-color: #d4d4d4;
     font-size: 20px;
     border: none;
-    margin-left: 100px;
     border-radius: 10px;
     
 }
