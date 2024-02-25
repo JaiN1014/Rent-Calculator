@@ -508,6 +508,8 @@
 {
    
     font-size: 30px;
+    width: 110%;
+    margin-left: -5%;
     display: flex;
     justify-content: space-between;
     background-color: #feb06a;
