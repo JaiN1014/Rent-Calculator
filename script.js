@@ -16,32 +16,3 @@ const units = {
   water: 'L'
 };
 
-// Get a reference to the electricity input element
-const electricityInput = document.querySelector('.left input');
-
-// Add a 'unit' property to the electricity input element
-electricityInput.unit = units.electricity;
-
-// Get a reference to the water input element
-const waterInput = document.querySelector('.right input');
-
-// Add a 'unit' property to the water input element
-waterInput.unit = units.water;
-
-// Add an event listener to the electricity input element
-electricityInput.addEventListener('input', () => {
-  // Update the electricity value element with the input value and unit
-  document.querySelector('#value').textContent = `${electricityInput.value} ${electricityInput.unit}`;
-});
-
-// Add an event listener to the water input element
-waterInput.addEventListener('input', () => {
-  // Update the water value element with the input value and unit
-  document.querySelector('#value').textContent = `${waterInput.value} ${waterInput.unit}`;
-});
-
-// Add an event listener to the previous button
-previousButton.addEventListener('click', () => {
-  // Go to the previous page or state
-  window.history.back();
-});
