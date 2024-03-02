@@ -16,3 +16,4 @@ const units = {
   water: 'L'
 };
 
+console.log(units);
