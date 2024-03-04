@@ -4,7 +4,7 @@ const container = document.querySelector('.container');
 // Create a previous button element
 const previousButton = document.createElement('button');
 previousButton.textContent = `Previous`;
-previousButton.className = `button1`;
+previousButton.class = `button1`;
 
 // Add the previous button to the container
 container.insertBefore(previousButton, container.firstChild);
